@@ -1,0 +1,25 @@
+fastapi>=0.110
+uvicorn>=0.27
+numpy>=1.26
+pyyaml>=6.0
+pandas>=2.0
+streamlit>=1.32
+pytest>=8.0
+# Real embeddings + real LLM calls (optional for the offline/mock demo):
+sentence-transformers>=2.7
+litellm>=1.40
+# Optional: swap the built-in numpy vector index for Qdrant
+# qdrant-client>=1.9
+
+pydantic~=2.14.1
+huggingface_hub~=1.33.0
+pip~=24.0
+attrs~=26.1.0
+distro~=1.9.0
+protobuf~=7.36.2
+pillow~=12.3.0
+Jinja2~=3.1.6
+filelock~=3.32.7
+setuptools~=84.0.0
+packaging~=26.3
+typing_extensions~=4.16.0

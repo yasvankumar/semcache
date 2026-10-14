@@ -1,0 +1,102 @@
+[
+ {
+  "query": "What is the API rate limit?",
+  "label": "simple"
+ },
+ {
+  "query": "How do I reset my password?",
+  "label": "simple"
+ },
+ {
+  "query": "Where are invoices?",
+  "label": "simple"
+ },
+ {
+  "query": "How much is Pro?",
+  "label": "simple"
+ },
+ {
+  "query": "Is SSO available?",
+  "label": "simple"
+ },
+ {
+  "query": "How long is shipping?",
+  "label": "simple"
+ },
+ {
+  "query": "What does Free include?",
+  "label": "simple"
+ },
+ {
+  "query": "Can I cancel?",
+  "label": "simple"
+ },
+ {
+  "query": "How do I enable 2FA?",
+  "label": "simple"
+ },
+ {
+  "query": "Data retention period?",
+  "label": "simple"
+ },
+ {
+  "query": "What is the EU refund window?",
+  "label": "simple"
+ },
+ {
+  "query": "How long do reset links last?",
+  "label": "simple"
+ },
+ {
+  "query": "Does Pro include priority support?",
+  "label": "simple"
+ },
+ {
+  "query": "What is express shipping cost?",
+  "label": "simple"
+ },
+ {
+  "query": "What does HTTP 429 mean here?",
+  "label": "simple"
+ },
+ {
+  "query": "Compare the Free and Pro plans",
+  "label": "complex"
+ },
+ {
+  "query": "Why does the EU refund policy differ from the US one?",
+  "label": "complex"
+ },
+ {
+  "query": "Explain the trade-offs between Pro and Enterprise",
+  "label": "complex"
+ },
+ {
+  "query": "What is the difference between standard and express shipping and when should I choose each?",
+  "label": "complex"
+ },
+ {
+  "query": "Why would SAML SSO be limited to Enterprise?",
+  "label": "complex"
+ },
+ {
+  "query": "Explain how data retention interacts with account deletion and backups",
+  "label": "complex"
+ },
+ {
+  "query": "Compare refunds in the EU versus the US",
+  "label": "complex"
+ },
+ {
+  "query": "Should I upgrade from Free to Pro if I need 3 seats and priority support?",
+  "label": "complex"
+ },
+ {
+  "query": "Why do API limits return 429 and how should a client handle it?",
+  "label": "complex"
+ },
+ {
+  "query": "Explain the pros and cons of cancelling mid billing cycle",
+  "label": "complex"
+ }
+]

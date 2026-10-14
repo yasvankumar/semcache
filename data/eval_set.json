@@ -1,0 +1,154 @@
+[
+  {
+    "question": "How do I reset my password?",
+    "expected": [
+      "Reset password"
+    ],
+    "paraphrases": [
+      "password reset steps",
+      "I forgot my password, how can I reset it?"
+    ]
+  },
+  {
+    "question": "What is the refund policy in the EU?",
+    "expected": [
+      "14 days"
+    ],
+    "paraphrases": [
+      "EU refund policy",
+      "How long do I have to ask for a refund in the EU?"
+    ]
+  },
+  {
+    "question": "What is the refund policy in the US?",
+    "expected": [
+      "30 days"
+    ],
+    "paraphrases": [
+      "US refund policy",
+      "How long do I have to ask for a refund in the US?"
+    ]
+  },
+  {
+    "question": "How long does standard shipping take?",
+    "expected": [
+      "5 to 7"
+    ],
+    "paraphrases": [
+      "standard shipping time",
+      "How many days does normal delivery take?"
+    ]
+  },
+  {
+    "question": "How much does the Pro plan cost?",
+    "expected": [
+      "29 dollars"
+    ],
+    "paraphrases": [
+      "Pro plan price",
+      "What do I pay each month for Pro?"
+    ]
+  },
+  {
+    "question": "What does the Free plan include?",
+    "expected": [
+      "1 seat"
+    ],
+    "paraphrases": [
+      "Free plan features",
+      "What do I get on the free tier?"
+    ]
+  },
+  {
+    "question": "What is the API rate limit?",
+    "expected": [
+      "60 requests"
+    ],
+    "paraphrases": [
+      "API requests per minute limit",
+      "How many API calls per minute are allowed?"
+    ]
+  },
+  {
+    "question": "Is SSO available?",
+    "expected": [
+      "Enterprise"
+    ],
+    "paraphrases": [
+      "Which plan has SAML single sign-on?",
+      "Can I use SAML SSO?"
+    ]
+  },
+  {
+    "question": "How long is my data retained after deletion?",
+    "expected": [
+      "90 days"
+    ],
+    "paraphrases": [
+      "data retention after account deletion",
+      "How long do you keep my data once I delete my account?"
+    ]
+  },
+  {
+    "question": "How do I enable two-factor authentication?",
+    "expected": [
+      "authenticator"
+    ],
+    "paraphrases": [
+      "turn on 2FA",
+      "Steps to set up two-factor authentication"
+    ]
+  },
+  {
+    "question": "Where can I download my invoices?",
+    "expected": [
+      "Billing"
+    ],
+    "paraphrases": [
+      "download invoices PDF",
+      "How do I get a PDF of my invoice?"
+    ]
+  },
+  {
+    "question": "Can I cancel my subscription?",
+    "expected": [
+      "cancel at any time"
+    ],
+    "paraphrases": [
+      "how to cancel subscription",
+      "Is it possible to cancel anytime?"
+    ]
+  },
+  {
+    "question": "Compare the refund policy in the EU and the US",
+    "expected": [
+      "14 days",
+      "30 days"
+    ],
+    "paraphrases": [
+      "EU versus US refund policy difference",
+      "How does the EU refund policy differ from the US one?"
+    ]
+  },
+  {
+    "question": "Why is SSO not available on the Pro plan?",
+    "expected": [
+      "Enterprise"
+    ],
+    "paraphrases": [
+      "Explain why Pro does not include SSO",
+      "Why can't Pro users use SAML single sign-on?"
+    ]
+  },
+  {
+    "question": "Explain the difference between the Free and Pro plans",
+    "expected": [
+      "1 seat",
+      "5 seats"
+    ],
+    "paraphrases": [
+      "Compare Free vs Pro plans",
+      "What is the difference between Pro and Free?"
+    ]
+  }
+]

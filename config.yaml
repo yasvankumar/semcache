@@ -1,0 +1,33 @@
+models:
+  small: gpt-4o-mini
+  large: gpt-4o
+
+# Price table used for cost = tokens x price (USD per 1K tokens)
+prices_per_1k_tokens:
+  gpt-4o-mini: {input: 0.00015, output: 0.0006}
+  gpt-4o:      {input: 0.0025,  output: 0.0100}
+
+cache:
+  threshold: 0.95            # overwrite with the value from scripts.tune_threshold --write
+  ttl_seconds: 86400         # second safety net next to corpus_version
+  initial_corpus_version: v1
+
+router:
+  type: rules                # rules | llm
+  complex_cutoff: 2          # rule score >= cutoff => complex
+
+escalation:
+  min_retrieval_score: 0.30  # top retrieval score below this => escalate small -> large (tune per embedder)
+
+retrieval:
+  top_k: 3
+
+llm:
+  mode: mock                 # mock (offline, deterministic) | litellm (real calls, needs API keys)
+  mock_latency_scale: 0.05   # 1.0 = pretend latencies of 150ms (small) / 600ms (large)
+
+embedder:
+  kind: auto                 # auto | st | hash   (auto = sentence-transformers if installed, else hash)
+  model: sentence-transformers/all-MiniLM-L6-v2
+
+db_path: data/app.db

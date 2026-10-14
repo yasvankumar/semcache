@@ -1,0 +1,50 @@
+[
+  {
+    "id": "password-reset",
+    "text": "To reset your password, open Settings, choose Security and click Reset password. A reset link is emailed and expires after 30 minutes."
+  },
+  {
+    "id": "refund-eu",
+    "text": "In the EU, customers may request a refund within 14 days of purchase under the right of withdrawal. Refunds are issued to the original payment method within 10 business days."
+  },
+  {
+    "id": "refund-us",
+    "text": "In the US, refunds are available within 30 days of purchase. Refunds are issued as store credit unless the payment was made by card."
+  },
+  {
+    "id": "shipping",
+    "text": "Standard shipping takes 5 to 7 business days. Express shipping takes 2 business days and costs 15 dollars."
+  },
+  {
+    "id": "plan-pro",
+    "text": "The Pro plan costs 29 dollars per month and includes 5 seats, priority support and a 99.9 percent uptime SLA."
+  },
+  {
+    "id": "plan-free",
+    "text": "The Free plan includes 1 seat, community support and a limit of 1000 requests per month."
+  },
+  {
+    "id": "api-limits",
+    "text": "The API allows 60 requests per minute per key. Exceeding the limit returns HTTP 429 and a Retry-After header."
+  },
+  {
+    "id": "sso",
+    "text": "Single sign-on via SAML is available on the Enterprise plan only. Setup requires an admin to upload the identity provider metadata."
+  },
+  {
+    "id": "data-retention",
+    "text": "Customer data is retained for 90 days after account deletion, then permanently erased from backups within 30 days."
+  },
+  {
+    "id": "two-factor",
+    "text": "Two-factor authentication can be enabled under Settings then Security using an authenticator app. Recovery codes are shown once."
+  },
+  {
+    "id": "invoices",
+    "text": "Invoices are emailed on the first day of each billing cycle and can be downloaded from Billing then History as PDF."
+  },
+  {
+    "id": "cancel",
+    "text": "You can cancel at any time from Billing. Access continues until the end of the paid period and no partial refunds are given."
+  }
+]
